@@ -9,8 +9,23 @@ body {
 }
 
 nav {
+  display: flex;
+  justify-content: space-between;
   background-color: white;
   padding: 8px 16px;
+}
+#destinations {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#actions {
+  align-items: baseline;
+  width: 15%;
+  border: 2px solid blacksss;
+  display: flex;
+  justify-content: space-between;
 }
 
 p {
